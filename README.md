@@ -4,7 +4,7 @@
 # 🎀 What does this do
 This convert .NET ByteCode (aka CIL) into New Set Of Instructions Which Only Understandable By ILVirtualization Runtime.
 
-# 🎲 Know Clues 
+# 🎲 Known Clues 
 - Some Handlers Have Simple Mistakes. (i.e Ldelem_R8, Call, Callvirt, Newobj).
 - No Support For Pointer CilOpCodes. (i.e Ldelema, Ldsflda, Ldloca).
 - No Support For Exception Handlers.
