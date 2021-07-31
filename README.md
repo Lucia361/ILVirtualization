@@ -4,13 +4,13 @@
 # 🎀 What does this do
 This convert .NET ByteCode (aka CIL) into New Set Of Instructions Which Only Understandable By ILVirtualization Runtime.
 
-# 🎲 Known Clues 
+# 🎲 Known Issues 
 - Some Handlers Have Simple Mistakes. (i.e Ldelem_R8, Call, Callvirt, Newobj).
 - No Support For Pointer CilOpCodes. (i.e Ldelema, Ldsflda, Ldloca).
 - No Support For Exception Handlers.
 - Not All Handlers well Tested.
 - This Also May Lead to a Noticeable Performance Hit(s).
-- Xor is Weak Algorithm.
+- Xor is Weak For Protecting VMData.
 
 # 🧩 What This Made For ?
 - Protecting Very Important And Sensitive Codes. (i.e License Checking Code, API Connections).
